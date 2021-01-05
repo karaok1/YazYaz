@@ -6,7 +6,7 @@ using System;
 
 namespace YazYaz.Controllers
 {
-    [AllowAnonymous]
+    [AllowAnonymous] // giris yapmamis kisiler 
     public class CultureController : Controller
     {
         [HttpPost]

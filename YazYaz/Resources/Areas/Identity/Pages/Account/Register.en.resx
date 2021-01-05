@@ -117,40 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ClickTheBox" xml:space="preserve">
-    <value>Click the textbox, and copy the content on the paragraph.</value>
+  <data name="RegisterConfirmPassword" xml:space="preserve">
+    <value>Confirm password</value>
   </data>
-  <data name="Elapsed" xml:space="preserve">
-    <value>Time elapsed:</value>
+  <data name="RegisterEmail" xml:space="preserve">
+    <value>Email</value>
   </data>
-  <data name="ErrorDatabase" xml:space="preserve">
-    <value>Error! Login to save your stats!</value>
+  <data name="RegisterNewAccount" xml:space="preserve">
+    <value>Create a new account.</value>
   </data>
-  <data name="Errors" xml:space="preserve">
-    <value>Errors:</value>
+  <data name="RegisterPassword" xml:space="preserve">
+    <value>Password</value>
   </data>
-  <data name="IndexHomePage" xml:space="preserve">
-    <value>Home page</value>
+  <data name="RegisterRegister" xml:space="preserve">
+    <value>Register</value>
   </data>
-  <data name="SavedDatabase" xml:space="preserve">
-    <value>Saved!</value>
-  </data>
-  <data name="Seconds" xml:space="preserve">
-    <value>seconds.</value>
-  </data>
-  <data name="StartTyping" xml:space="preserve">
-    <value>Start typing words!</value>
-  </data>
-  <data name="Time" xml:space="preserve">
-    <value>Time:</value>
-  </data>
-  <data name="TimerStarts" xml:space="preserve">
-    <value>The timer starts when a key is pressed.</value>
-  </data>
-  <data name="TypingSpeedIs" xml:space="preserve">
-    <value>Your typing speed in net WPM:</value>
-  </data>
-  <data name="WordsPerMinute" xml:space="preserve">
-    <value>words per minute.</value>
+  <data name="RegisterTitle" xml:space="preserve">
+    <value>Register</value>
   </data>
 </root>

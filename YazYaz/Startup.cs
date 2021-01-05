@@ -50,7 +50,7 @@ namespace YazYaz
                 .AddNewtonsoftJson();
             services
                 .AddConfiguredMvc()
-                .AddConfiguredLocalization();
+                .AddConfiguredLocalization(); // localization 
 
             services.AddAuthorization(options =>
             {
@@ -88,6 +88,7 @@ namespace YazYaz
 
             app.UseAuthentication();
             app.UseAuthorization();
+
 
             app.UseRequestLocalization(app.ApplicationServices
                 .GetRequiredService<IOptions<RequestLocalizationOptions>>().Value);
