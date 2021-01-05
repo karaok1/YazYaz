@@ -65,18 +65,16 @@
              User, item,
              QuoteOperations.Update)).Succeeded)
                 {
-                    <a asp-page="./Edit" asp-route-id="@item.QuoteID">@Localizer["Edit"]</a>
-                    <text> | </text>
+                    <a asp-page="./Edit" asp-route-id="@item.QuoteID"><i class="fas fa-edit"></i></a>
                 }
 
-                <a asp-page="./Details" asp-route-id="@item.QuoteID">@Localizer["Details"]</a>
+                <a asp-page="./Details" asp-route-id="@item.QuoteID"><i class="fas fa-info-circle"></i></a>
 
                 @if ((await AuthorizationService.AuthorizeAsync(
              User, item,
              QuoteOperations.Delete)).Succeeded)
                 {
-                    <text> | </text>
-                    <a asp-page="./Delete" asp-route-id="@item.QuoteID">@Localizer["Delete"]</a>
+                    <a asp-page="./Delete" asp-route-id="@item.QuoteID"><i class="far fa-trash-alt"></i></a>
                 }
             </td>
         </tr>
